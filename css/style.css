@@ -30,6 +30,10 @@ a{
 
 }
 
+/* main- */
+
+
+
 
 /* RESPONSIVE */
 
@@ -44,7 +48,26 @@ a{
     header .header-container  .menu-mobile{
         display: block;
     }
+
+    main .big-col-mobile{
+        width: calc(100% / 3 * 2 - 20px)
+    }
+    main .col-mobile{
+        width: calc(100% / 3 - 20px)
+    
+    }
+    main .container-jumbotron{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    main .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
+
 
 /* DESKTOP */
 
@@ -57,4 +80,72 @@ a{
     header .header-container  .menu-mobile{
         display: none;
     }
+    main .big-col-mobile{
+        width: calc(100% / 3 * 2 - 20px)
+    }
+    main .col-mobile{
+        width: calc(100% / 3 - 20px)
+    
+    }
+    main .container-jumbotron{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    main .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+/* utility */
+.container-jumbotron{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+/* height */
+
+
+.height-xl{
+    height: 700px;
+}
+.height-l{
+    height: 500px;
+}
+.height-s{
+    height: 300px;
+}
+.height-sm{
+    height: 200px;
+}
+ /* bgcolor */
+.bg-light-blue{
+    background-color:#B5DDFF ;
+}
+
+/* col */
+
+.big-col-mobile{
+    width: calc(100% - 20px)
+}
+.col-mobile{
+    width: calc(100% - 20px)
+
+}
+
+.my-10{
+    margin: 10px;
+}
+
+.border-radius{
+    border-radius: 2%;
 }
