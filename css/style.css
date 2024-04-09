@@ -66,6 +66,15 @@ a{
         flex-direction: row;
         flex-wrap: wrap;
     }
+    main .container-full{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    main .row-st-planning{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -97,6 +106,10 @@ a{
         flex-direction: row;
         flex-wrap: wrap;
     }
+    main .row-st-planning{
+        display: flex;
+        flex-direction: row;
+    }
 
     
 }
@@ -106,10 +119,16 @@ a{
     max-width: 80%;
     margin: 0 auto;
 }
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 
 .row{
     display: flex;
     flex-direction: column;
+    
 }
 
 /* height */
@@ -131,6 +150,12 @@ a{
 .bg-light-blue{
     background-color:#B5DDFF ;
 }
+.bg-violet{
+    background-color: #9792E4;
+}
+.bg-gold{
+    background-color: gold;
+}
 
 /* col */
 
@@ -141,6 +166,22 @@ a{
     width: calc(100% - 20px)
 
 }
+.col-40{
+    width: 40%
+
+}
+.col-50{
+    width: 50%
+
+}
+.col-60{
+    width: 60%
+
+}
+.col-100{
+    width: calc(100%  - 20px)
+
+}
 
 .my-10{
     margin: 10px;
@@ -149,3 +190,4 @@ a{
 .border-radius{
     border-radius: 2%;
 }
+
