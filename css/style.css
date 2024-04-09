@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* -header */
+
+header{
+    background-color: #0084FD;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-container .menu-desktop{
+    display: none;
+}
+
+header .header-container .menu-desktop .ul .li{
+    display: inline;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px)
+{
+    header .header-container  .menu-desktop{
+        display: block;
+    }
+    header .header-container  .menu-mobile{
+        display: none;
+    }
+}
