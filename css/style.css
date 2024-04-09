@@ -146,6 +146,9 @@ a{
 .height-sm{
     height: 200px;
 }
+.height-m{
+    height: 100px;
+}
  /* bgcolor */
 .bg-light-blue{
     background-color:#B5DDFF ;
@@ -171,7 +174,7 @@ a{
 
 }
 .col-50{
-    width: 50%
+    width: calc(50% )
 
 }
 .col-60{
@@ -190,4 +193,16 @@ a{
 .border-radius{
     border-radius: 2%;
 }
+.border-radius-card{
+    border-radius: 10%;
+}
 
+
+.ps-relative{
+    position: relative;
+}
+
+
+.d-flex{
+    display: flex;
+}
