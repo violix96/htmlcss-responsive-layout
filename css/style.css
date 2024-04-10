@@ -27,8 +27,14 @@ header .container .header-container .menu-desktop ul li {
 
 a{
     text-decoration: none;
-
+    color: white;
 }
+
+.img-jumbo{
+    width: 400px;
+    height: 400px;
+}
+
 
 h2{
     text-align: center;
@@ -37,6 +43,22 @@ h2{
 .py-20{
     padding: 20px;
 }
+.py-40{
+    padding: 40px;
+}
+.py-60{
+    padding: 60px;
+}
+
+.my-30{
+    margin: 30px;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+}
+
 /* main- */
 
 
@@ -81,8 +103,7 @@ h2{
     main .row-st-planning{
         display: flex;
         flex-direction: column;
-    }
-    
+    }    
 }
 
 
@@ -217,4 +238,27 @@ h2{
 
 .d-flex{
     display: flex;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+
+.p-jumbotron{
+    font-size: larger;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.h3-jumbotron{
+    color: blue ;
+    padding-top: 20px;
+
+}
+
+.btn-store{
+    background-color:blue;
+    padding: 10px;
+    border-radius: 15%;
 }
