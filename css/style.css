@@ -33,6 +33,7 @@ a{
 .img-jumbo{
     width: 400px;
     height: 400px;
+
 }
 
 
@@ -104,6 +105,10 @@ h2{
         display: flex;
         flex-direction: column;
     }    
+
+    main .bg-violet .container .row-st-benefits .col-100{
+        width: calc(100% / 2 - 20px);
+    }    
 }
 
 
@@ -140,7 +145,11 @@ h2{
         display: flex;
         flex-direction: row;
     }
-
+      
+    main .bg-violet .container .row-st-benefits .col-100{
+        width: calc(100% / 3 - 20px);
+    }   
+    
     
 }
 
@@ -160,6 +169,12 @@ h2{
     flex-direction: column;
     
 }
+
+.row-st-benefits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
 
 /* height */
 
@@ -207,7 +222,7 @@ h2{
 }
 
 .col-50{
-    width: calc(50%)
+    width: 50%
 
 }
 .col-60{
@@ -215,6 +230,10 @@ h2{
 
 }
 .col-100{
+    width: calc(100%  - 20px)
+
+}
+.col-100-h2{
     width: calc(100%  - 20px)
 
 }
