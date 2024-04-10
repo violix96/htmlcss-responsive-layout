@@ -108,7 +108,13 @@ h2{
 
     main .bg-violet .container .row-st-benefits .col-100{
         width: calc(100% / 2 - 20px);
-    }    
+    }   
+    #about-us .col-left{
+        width: calc(100% / 3 * 2 - 20px);
+    } 
+    #about-us .col-right{
+        width: calc(100% / 3 - 20px);
+    } 
 }
 
 
@@ -149,6 +155,12 @@ h2{
     main .bg-violet .container .row-st-benefits .col-100{
         width: calc(100% / 3 - 20px);
     }   
+    #about-us .col-left{
+        width: calc(80% - 20px);
+    } 
+    #about-us .col-right{
+        width: calc(20% - 20px);
+    } 
     
     
 }
@@ -166,7 +178,8 @@ h2{
 
 .row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
@@ -214,8 +227,15 @@ h2{
     width: calc(100% - 20px)
 
 }
+
 .col-33{
     width: calc(100% / 2)
+}
+.col-left{
+    width: 100%
+}
+.col-right{
+    width: 100%
 }
 .col-40{
     width: 40%
